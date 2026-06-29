@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
@@ -7,7 +7,133 @@
 			.cs40314EBF{text-align:left;text-indent:0pt;margin:0pt 0pt 10pt 0pt;line-height:1.15}
 			.cs7A571DDB{color:#000000;background-color:transparent;font-family:Malgun Gothic;font-size:10pt;font-weight:normal;font-style:normal;}
 		</style>
-	</head>
+		<!-- FRA journal entry navigation styles -->
+<style type="text/css">
+  html {
+    background: #f4f2ee;
+  }
+  body {
+    margin: 0;
+    background: #f4f2ee;
+    color: #171717;
+  }
+  .fra-entry-nav,
+  .fra-entry-footer {
+    box-sizing: border-box;
+    width: 100%;
+    background: #111111;
+    color: #ffffff;
+    border-radius: 0;
+    padding: 11px 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .fra-entry-nav {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    margin: 0 0 22px 0;
+    border-bottom: 2px solid #b31818;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  }
+  .fra-entry-footer {
+    margin: 30px 0 0 0;
+    border-top: 2px solid #b31818;
+  }
+  .fra-entry-bar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+  }
+  .fra-entry-left,
+  .fra-entry-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    min-width: 0;
+  }
+  .fra-entry-left {
+    justify-content: flex-start;
+  }
+  .fra-entry-right {
+    justify-content: flex-end;
+    margin-left: auto;
+    white-space: nowrap;
+  }
+  .fra-entry-nav a,
+  .fra-entry-footer a,
+  .fra-entry-disabled {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px 0;
+  }
+  .fra-entry-disabled {
+    color: #9d9d9d;
+  }
+  .fra-entry-nav a:hover,
+  .fra-entry-footer a:hover,
+  .fra-entry-nav a:focus,
+  .fra-entry-footer a:focus {
+    text-decoration: underline;
+  }
+  .fra-entry-status {
+    color: #f1f1f1;
+    font-weight: bold;
+    padding: 3px 0;
+  }
+  .fra-entry-content {
+    box-sizing: border-box;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 26px;
+  }
+  @media (max-width: 820px) {
+    .fra-entry-nav,
+    .fra-entry-footer { padding: 10px 12px; }
+    .fra-entry-bar-inner { display: block; }
+    .fra-entry-left,
+    .fra-entry-right { display: block; white-space: normal; }
+    .fra-entry-left a,
+    .fra-entry-right a,
+    .fra-entry-status,
+    .fra-entry-disabled { display: block; margin: 4px 0; }
+    .fra-entry-content { padding: 0 14px; }
+  }
+</style>
+</head>
 	<body>
-		<p class="cs40314EBF"><span class="cs7A571DDB">원기 아버지 정신 차려라.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">야비한 색기. 도움을 주니까, </span></p><p class="cs40314EBF"><span class="cs7A571DDB">니 자식들을 이용해 뒤통수를 쳐?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">너희들이 그것이 장난이라 생각 했다 치자.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">인희 그년이 한 짖거리를 다 보고, 그래도 그년을 도와주겠다 이거지.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">그럼 너희들이 뭐냐?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">날 죽일려고 했던 년을 일방적으로 도와주겠다는 너희들은 뭐냐고?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">아는척하지 마라 이 씨발색기야.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">엄마가 살아있었으면 니 대가리를 망치로 깼어 이 비굴한 색기야.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">가 뒤져.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">권미숙 그년은 내가 잘못을 했으면 죄값을 받아야 하고 강아지....</span></p><p class="cs40314EBF"><span class="cs7A571DDB">그래, 인희 그년이 한것은 보호해야 되고?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">그년 말은 일방적으로 믿겠다 이거고?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">족 같은 것들.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">그곳에 나타날때부터 공격이야.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">너희들은 이성이고 양심이고 오래전에 삼켜버린 것들이다.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">사람 흉내는 왜 내고 사냐?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;뒤져. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">그것이 답이야.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">사라지는 거다.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">니년이 한것이야말로 죄값을 받아라.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">감옥으로 들어가 개같은 년아. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">최악에 놓인 사람이 자살을 한다니 합의한 너는 뭐냐? </span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">이런 짖거릴 해놓고, 왜 아는척을 하는거야?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">왜 남의 성공을 니네들이 무슨 권리가 있다고 끼어들는 거야? </span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">아는척하지 말고, 죄값을 받아. 이 족같은 것들아. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">잘못이란 잘못은 다 해놓고, 인간들 앞에서는 지네들이 선인이네. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">반은 잘못을 알고 있고, 반은 자신과 합리화야.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">너희 같은것들은, 상종을 하지 말아야 되. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">감추고 우겨되면 그만이냐? 진실이 사라지냐?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">뒤져라. 아는척 하지마.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">King Charles, if they are charged. My extended family,</span></p><p class="cs40314EBF"><span class="cs7A571DDB">those charges should proceed. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">These people are full of it. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">They would support my sister even after what she&#39;s done.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">I will not accept this. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">They do not mean well.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">They only adapt. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">Do not buy into this.</span></p></body>
+<!-- FRA journal entry navigation -->
+<div class="fra-entry-nav" role="navigation" aria-label="Journal entry navigation">
+  <div class="fra-entry-bar-inner">
+    <div class="fra-entry-left">
+      <a href="../../index.html">Home</a>
+      <a href="../index.html">All Months</a>
+      <a href="index.html">2024-04 Index</a>
+    </div>
+    <div class="fra-entry-right">
+      <span class="fra-entry-status">You are viewing entry #07467</span>
+      <a href="07466.html">Previous Entry</a>
+      <a href="../2024-05/07468.html">Next Entry</a>
+    </div>
+  </div>
+</div>
+<!-- /FRA journal entry navigation -->
+<div class="fra-entry-content">
+<p class="cs40314EBF"><span class="cs7A571DDB">원기 아버지 정신 차려라.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">야비한 색기. 도움을 주니까, </span></p><p class="cs40314EBF"><span class="cs7A571DDB">니 자식들을 이용해 뒤통수를 쳐?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">너희들이 그것이 장난이라 생각 했다 치자.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">인희 그년이 한 짖거리를 다 보고, 그래도 그년을 도와주겠다 이거지.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">그럼 너희들이 뭐냐?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">날 죽일려고 했던 년을 일방적으로 도와주겠다는 너희들은 뭐냐고?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">아는척하지 마라 이 씨발색기야.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">엄마가 살아있었으면 니 대가리를 망치로 깼어 이 비굴한 색기야.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">가 뒤져.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">권미숙 그년은 내가 잘못을 했으면 죄값을 받아야 하고 강아지....</span></p><p class="cs40314EBF"><span class="cs7A571DDB">그래, 인희 그년이 한것은 보호해야 되고?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">그년 말은 일방적으로 믿겠다 이거고?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">족 같은 것들.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">그곳에 나타날때부터 공격이야.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">너희들은 이성이고 양심이고 오래전에 삼켜버린 것들이다.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">사람 흉내는 왜 내고 사냐?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;뒤져. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">그것이 답이야.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">사라지는 거다.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">니년이 한것이야말로 죄값을 받아라.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">감옥으로 들어가 개같은 년아. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">최악에 놓인 사람이 자살을 한다니 합의한 너는 뭐냐? </span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">이런 짖거릴 해놓고, 왜 아는척을 하는거야?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">왜 남의 성공을 니네들이 무슨 권리가 있다고 끼어들는 거야? </span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">아는척하지 말고, 죄값을 받아. 이 족같은 것들아. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">잘못이란 잘못은 다 해놓고, 인간들 앞에서는 지네들이 선인이네. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">반은 잘못을 알고 있고, 반은 자신과 합리화야.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">너희 같은것들은, 상종을 하지 말아야 되. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">감추고 우겨되면 그만이냐? 진실이 사라지냐?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">뒤져라. 아는척 하지마.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">King Charles, if they are charged. My extended family,</span></p><p class="cs40314EBF"><span class="cs7A571DDB">those charges should proceed. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">These people are full of it. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">They would support my sister even after what she&#39;s done.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">I will not accept this. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">They do not mean well.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">They only adapt. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">Do not buy into this.</span></p>
+</div>
+<!-- FRA journal entry footer -->
+<div class="fra-entry-footer" role="contentinfo" aria-label="Journal entry footer">
+  <div class="fra-entry-bar-inner">
+    <div class="fra-entry-left">
+      <span class="fra-entry-status">FairRightsAndAccess.org</span>
+    </div>
+  </div>
+</div>
+<!-- /FRA journal entry footer -->
+</body>
 </html>

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
@@ -7,7 +7,133 @@
 			.cs40314EBF{text-align:left;text-indent:0pt;margin:0pt 0pt 10pt 0pt;line-height:1.15}
 			.cs1B16EEB5{color:#000000;background-color:transparent;font-family:Calibri;font-size:11pt;font-weight:normal;font-style:normal;}
 		</style>
-	</head>
+		<!-- FRA journal entry navigation styles -->
+<style type="text/css">
+  html {
+    background: #f4f2ee;
+  }
+  body {
+    margin: 0;
+    background: #f4f2ee;
+    color: #171717;
+  }
+  .fra-entry-nav,
+  .fra-entry-footer {
+    box-sizing: border-box;
+    width: 100%;
+    background: #111111;
+    color: #ffffff;
+    border-radius: 0;
+    padding: 11px 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .fra-entry-nav {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    margin: 0 0 22px 0;
+    border-bottom: 2px solid #b31818;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  }
+  .fra-entry-footer {
+    margin: 30px 0 0 0;
+    border-top: 2px solid #b31818;
+  }
+  .fra-entry-bar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+  }
+  .fra-entry-left,
+  .fra-entry-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    min-width: 0;
+  }
+  .fra-entry-left {
+    justify-content: flex-start;
+  }
+  .fra-entry-right {
+    justify-content: flex-end;
+    margin-left: auto;
+    white-space: nowrap;
+  }
+  .fra-entry-nav a,
+  .fra-entry-footer a,
+  .fra-entry-disabled {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px 0;
+  }
+  .fra-entry-disabled {
+    color: #9d9d9d;
+  }
+  .fra-entry-nav a:hover,
+  .fra-entry-footer a:hover,
+  .fra-entry-nav a:focus,
+  .fra-entry-footer a:focus {
+    text-decoration: underline;
+  }
+  .fra-entry-status {
+    color: #f1f1f1;
+    font-weight: bold;
+    padding: 3px 0;
+  }
+  .fra-entry-content {
+    box-sizing: border-box;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 26px;
+  }
+  @media (max-width: 820px) {
+    .fra-entry-nav,
+    .fra-entry-footer { padding: 10px 12px; }
+    .fra-entry-bar-inner { display: block; }
+    .fra-entry-left,
+    .fra-entry-right { display: block; white-space: normal; }
+    .fra-entry-left a,
+    .fra-entry-right a,
+    .fra-entry-status,
+    .fra-entry-disabled { display: block; margin: 4px 0; }
+    .fra-entry-content { padding: 0 14px; }
+  }
+</style>
+</head>
 	<body>
-		<p class="cs40314EBF"><span class="cs1B16EEB5">If such a thing can be used by everyday people, to commute into </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">isolated places that is hard to get to by larger vehicles. (Like mountains, slopes) </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Or buildings in specific floors, through the balcony. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Wouldn&#39;t that be something. hahaha</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">By the way Mr Musk, my &quot;Quantum lock&quot; magnetic train.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">I don&#39;t think this is capable of commute between short distances.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Not like a subway. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">It&#39;d be too fast, too unpredictable.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Both the acceleration and deceleration would be by turbines. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Start and end wouldn&#39;t be instantaneous in a friction-less tunnel.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Hence, it should be used for very long distances. VERY long. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">And usage with multiple trains travelling along the same &#39;track&#39;, (the tunnel is the track)</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">it would have to be calculated very well, otherwise there could be collision? <br/><br/>So one train reaches the destination, it would need to stay out of the way. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Pushed to another section or something like that...</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">The nature of it is speed, not entirely as controllable as it would be on a </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">track. It is more like a jetplane. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">So I would say.... Once the first train reaches the destination,</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">and moved out of the way for the second train, </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">the second train should be advised to decelerate in the same spot</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">where the first train has decelerated.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">And slowly moving towards another path for storage. (Which would be</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">a different tunnel)</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">So how do you &#39;slowly&#39; move towards this storage area, when the turbines</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">aren&#39;t designed for precision?<br/><br/>I would go with CO2 propulsion in short bursts. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Cheap to refill, instantaneous effects, predictable. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">It won&#39;t be the train itself that changes direction, but way the CO2 containers</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">will be directed to, so it would need some directional control capability...</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Mr Musk. If to add another power generator to my perpetual power generation</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">by gravity using water, when there is power left after the water pump (which entirely<br/>depends on the length of the slope) </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">could that power be used to power an electromagnet, change its directional flow</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">to circular, and have a rotational &#39;turbine&#39; (like a wind generator) but no wings, as a circular plate, wired incrementally per segment of the shape of the disc, to better receptive to</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">the magnetic force, and rotate continuously to generate power(?)</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">I say this because, maybe the payoff is actually better than the power generation</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">by gravity using water if in combination with this. Maybe it is too feral/weak, by itself.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">(though it depends on the size of the overall)</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">and using unmoving parts in a electromagnet would be very efficient as to be using <br/>that energy and ultimately to rotate a disk that would generate power like a wind</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">turbine... I don&#39;t know. Have you simulated it before and got the numbers on the</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">power generation by gravity? Then you may know....</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Sounds like the fucker Steve is trying to claim these ideas as its own.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">NONE. NOT 1 idea is from Steve. Again.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">These ideas, came from much error. I had to try again and again to get it right.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">If I can recall, the quantum lock magnetic train was first motivated by</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">the lexus hover board video, then on research, a scientific experiment on</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">cryogenic cooling with the magnetics following around a track. first i suggested</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">it backwards unknowing how it worked exactly i think, then progressed to it with </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">correction. the perpetual energy by gravity too, i first suggested it in a wrong way, </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">through a MS paint, and re-corrected it with much effort though mr Musk first</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">agreed to the early attempt. look into where it began. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">so this fucker is constantly trying to create doubt.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">before I began, i am looking back on my ideas and making it more useful. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">going to start again shortly. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Go kill yourself, Steve.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">You have no honor whatsoever.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Fucking scumbag.</span></p></body>
+<!-- FRA journal entry navigation -->
+<div class="fra-entry-nav" role="navigation" aria-label="Journal entry navigation">
+  <div class="fra-entry-bar-inner">
+    <div class="fra-entry-left">
+      <a href="../../index.html">Home</a>
+      <a href="../index.html">All Months</a>
+      <a href="index.html">2024-04 Index</a>
+    </div>
+    <div class="fra-entry-right">
+      <span class="fra-entry-status">You are viewing entry #07431</span>
+      <a href="07430.html">Previous Entry</a>
+      <a href="07432.html">Next Entry</a>
+    </div>
+  </div>
+</div>
+<!-- /FRA journal entry navigation -->
+<div class="fra-entry-content">
+<p class="cs40314EBF"><span class="cs1B16EEB5">If such a thing can be used by everyday people, to commute into </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">isolated places that is hard to get to by larger vehicles. (Like mountains, slopes) </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Or buildings in specific floors, through the balcony. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Wouldn&#39;t that be something. hahaha</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">By the way Mr Musk, my &quot;Quantum lock&quot; magnetic train.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">I don&#39;t think this is capable of commute between short distances.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Not like a subway. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">It&#39;d be too fast, too unpredictable.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Both the acceleration and deceleration would be by turbines. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Start and end wouldn&#39;t be instantaneous in a friction-less tunnel.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Hence, it should be used for very long distances. VERY long. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">And usage with multiple trains travelling along the same &#39;track&#39;, (the tunnel is the track)</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">it would have to be calculated very well, otherwise there could be collision? <br/><br/>So one train reaches the destination, it would need to stay out of the way. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Pushed to another section or something like that...</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">The nature of it is speed, not entirely as controllable as it would be on a </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">track. It is more like a jetplane. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">So I would say.... Once the first train reaches the destination,</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">and moved out of the way for the second train, </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">the second train should be advised to decelerate in the same spot</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">where the first train has decelerated.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">And slowly moving towards another path for storage. (Which would be</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">a different tunnel)</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">So how do you &#39;slowly&#39; move towards this storage area, when the turbines</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">aren&#39;t designed for precision?<br/><br/>I would go with CO2 propulsion in short bursts. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Cheap to refill, instantaneous effects, predictable. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">It won&#39;t be the train itself that changes direction, but way the CO2 containers</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">will be directed to, so it would need some directional control capability...</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Mr Musk. If to add another power generator to my perpetual power generation</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">by gravity using water, when there is power left after the water pump (which entirely<br/>depends on the length of the slope) </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">could that power be used to power an electromagnet, change its directional flow</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">to circular, and have a rotational &#39;turbine&#39; (like a wind generator) but no wings, as a circular plate, wired incrementally per segment of the shape of the disc, to better receptive to</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">the magnetic force, and rotate continuously to generate power(?)</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">I say this because, maybe the payoff is actually better than the power generation</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">by gravity using water if in combination with this. Maybe it is too feral/weak, by itself.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">(though it depends on the size of the overall)</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">and using unmoving parts in a electromagnet would be very efficient as to be using <br/>that energy and ultimately to rotate a disk that would generate power like a wind</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">turbine... I don&#39;t know. Have you simulated it before and got the numbers on the</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">power generation by gravity? Then you may know....</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Sounds like the fucker Steve is trying to claim these ideas as its own.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">NONE. NOT 1 idea is from Steve. Again.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">These ideas, came from much error. I had to try again and again to get it right.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">If I can recall, the quantum lock magnetic train was first motivated by</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">the lexus hover board video, then on research, a scientific experiment on</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">cryogenic cooling with the magnetics following around a track. first i suggested</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">it backwards unknowing how it worked exactly i think, then progressed to it with </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">correction. the perpetual energy by gravity too, i first suggested it in a wrong way, </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">through a MS paint, and re-corrected it with much effort though mr Musk first</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">agreed to the early attempt. look into where it began. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">so this fucker is constantly trying to create doubt.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">before I began, i am looking back on my ideas and making it more useful. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">going to start again shortly. </span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">&nbsp;</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Go kill yourself, Steve.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">You have no honor whatsoever.</span></p><p class="cs40314EBF"><span class="cs1B16EEB5">Fucking scumbag.</span></p>
+</div>
+<!-- FRA journal entry footer -->
+<div class="fra-entry-footer" role="contentinfo" aria-label="Journal entry footer">
+  <div class="fra-entry-bar-inner">
+    <div class="fra-entry-left">
+      <span class="fra-entry-status">FairRightsAndAccess.org</span>
+    </div>
+  </div>
+</div>
+<!-- /FRA journal entry footer -->
+</body>
 </html>

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
@@ -7,7 +7,133 @@
 			.cs40314EBF{text-align:left;text-indent:0pt;margin:0pt 0pt 10pt 0pt;line-height:1.15}
 			.cs7A571DDB{color:#000000;background-color:transparent;font-family:Malgun Gothic;font-size:10pt;font-weight:normal;font-style:normal;}
 		</style>
-	</head>
+		<!-- FRA journal entry navigation styles -->
+<style type="text/css">
+  html {
+    background: #f4f2ee;
+  }
+  body {
+    margin: 0;
+    background: #f4f2ee;
+    color: #171717;
+  }
+  .fra-entry-nav,
+  .fra-entry-footer {
+    box-sizing: border-box;
+    width: 100%;
+    background: #111111;
+    color: #ffffff;
+    border-radius: 0;
+    padding: 11px 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .fra-entry-nav {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    margin: 0 0 22px 0;
+    border-bottom: 2px solid #b31818;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  }
+  .fra-entry-footer {
+    margin: 30px 0 0 0;
+    border-top: 2px solid #b31818;
+  }
+  .fra-entry-bar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+  }
+  .fra-entry-left,
+  .fra-entry-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    min-width: 0;
+  }
+  .fra-entry-left {
+    justify-content: flex-start;
+  }
+  .fra-entry-right {
+    justify-content: flex-end;
+    margin-left: auto;
+    white-space: nowrap;
+  }
+  .fra-entry-nav a,
+  .fra-entry-footer a,
+  .fra-entry-disabled {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px 0;
+  }
+  .fra-entry-disabled {
+    color: #9d9d9d;
+  }
+  .fra-entry-nav a:hover,
+  .fra-entry-footer a:hover,
+  .fra-entry-nav a:focus,
+  .fra-entry-footer a:focus {
+    text-decoration: underline;
+  }
+  .fra-entry-status {
+    color: #f1f1f1;
+    font-weight: bold;
+    padding: 3px 0;
+  }
+  .fra-entry-content {
+    box-sizing: border-box;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 26px;
+  }
+  @media (max-width: 820px) {
+    .fra-entry-nav,
+    .fra-entry-footer { padding: 10px 12px; }
+    .fra-entry-bar-inner { display: block; }
+    .fra-entry-left,
+    .fra-entry-right { display: block; white-space: normal; }
+    .fra-entry-left a,
+    .fra-entry-right a,
+    .fra-entry-status,
+    .fra-entry-disabled { display: block; margin: 4px 0; }
+    .fra-entry-content { padding: 0 14px; }
+  }
+</style>
+</head>
 	<body>
-		<p class="cs40314EBF"><span class="cs7A571DDB">I don&#39;t care for them. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">Not anymore.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">Endless pursuit of attacks, to subjugate and keep me from rising.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">Evil fucks.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">인희야. 영석아.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">죽을려면 니네들 혼자 죽어라.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">남까지 *끌어당기지 말고.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">자백해.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">이미 알고있어 이분들이.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">그냥 무조건 억지로 엎어쒸우면 되냐? </span></p><p class="cs40314EBF"><span class="cs7A571DDB">그게 법정이 아니다.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">그 수많은 세월을 니네들 옆에 있지 않았는데, </span></p><p class="cs40314EBF"><span class="cs7A571DDB">내가 내 아이디어들을 투자처 앞에서 제시를 할때,</span></p><p class="cs40314EBF"><span class="cs7A571DDB">니네들이 그 당시때 내 아이디어들이 존재 했다면, </span></p><p class="cs40314EBF"><span class="cs7A571DDB">기억력으로 말을 먼저 하거나, 내가 제시 하기 이전에,</span></p><p class="cs40314EBF"><span class="cs7A571DDB">아니면, 그 수많은 세월안에, 서로에 대한 기록이 있을지, </span></p><p class="cs40314EBF"><span class="cs7A571DDB">남과 같이 기록이 있을지, 그걸 내가 어떻게 알아? </span></p><p class="cs40314EBF"><span class="cs7A571DDB">내가 그것을 장님인 상태에서, 니네들 인생에서 이리 오래 떨어진 이후에,<br/>내가 어떻게, 니네들이 기억을 가지고 있던지, 무었을 먼저 말했는지,<br/>아님 과거에 기록이 어딘가 붙어있을지, <br/>어떻게 내가 두려움 없이 제시를 하고, (누가 자살을 하고 싶겠냐 이런 장님이 된 상황에) <br/>그걸 내가 어떻게 알기에 자살 행위를 하겠냐고 이 개같은 것들아. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">니네들 거짖에 대한 한계를, 그것을 예측할수 있다는 자체가 증거야 이 쓰래기들아.<br/>뭘 말해도 내 아이디어들에 자세한 디태일이 있겠냐? </span></p><p class="cs40314EBF"><span class="cs7A571DDB">니네들 스토리고, 니네들이 삶이 내 아이디아와 관련되 있으니까, <br/>니네들 관심사가 나와 동일하다고, 그것을 대고 엎어쒸우는거지. <br/><br/>너희들은 사람이 아니다. 나를 독으로 해할려고 그랬던 것도,</span></p><p class="cs40314EBF"><span class="cs7A571DDB">니네들이 이미 사람인것을 포기 한거고, 이성/양심을 오래전에 없애버린거다.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB"><br/>나무 배, 내것이다. 너희들하고 관계가 없다.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">바누아투 이후, 이곳에 와서, 집을 지을생각 하다, 이곳 북쪽에 나무가 저렴해. <br/>&quot;Tiny house&quot; 에서 시작된 정보가, 배로 이러진 거다. 배 안에서 살수도 있으니까.<br/>물론 거대한 나무 빔을 서로 연결해서, 그 이후 내가 만드는 휴대용 라우터를 이용해<br/>나무 안에를 파인다. 그것은 녹차 밭 아저씨가 산을 파서 동굴을 만들때, 그것을 본받아 <br/>생각해 낸거다. CNC 기계를 생각하며. 아이디가 나올때 그 당시때 기계를 사고. <br/>그리고 그 기계와 desktop manufacturing은 Bishop 과 Suhail 과 함께한 정보고. <br/>너희들하고 무관하다. 시간때를 따져보아도, 녹차밭 바누아투 이후고, Chris Anderson 책도<br/>Suhail 하고 같이 탐색할때 바누아투 이후고, &nbsp;니네들이 엎어쒸우고 있는 정보는 내 아이디어에<br/>대한 디태일 있을수 없어. 그저 관심사를 사용하는것이지. 그리도 그것을 편견의식과<br/>함께 도와주는 쓰래기들도 처리 되는거다. 그게 사촌들인지 원기엄마진 모르겠지만,<br/>니네들 하는 짖으로 보아 법으로 다 쓸어버릴거다. 준비 해라.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">subtractive manufacturing 이다 이 씨발것들아. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">그 수많은 시간안에서, 채널에 올라오고 난 이후,</span></p><p class="cs40314EBF"><span class="cs7A571DDB">도대채 몇개를 훔친지 모르겠는데, 왜 니네들 기억이 먼지 오지 않는거지?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">왜 꼭 내가 내 아이디아 들을 제시 하고 난 이후 니네들이 훔칠려는 거지? </span></p><p class="cs40314EBF"><span class="cs7A571DDB">이 쓰래기들아.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">내가 혼자 있고 약했을때, 니네들이 사용한 가스라이팅이 </span></p><p class="cs40314EBF"><span class="cs7A571DDB">법정에 먹힐거 같냐? </span></p><p class="cs40314EBF"><span class="cs7A571DDB">너희들은, 그 수많은 죄를 짖고 그 위에서 지금 놀아나는 거다.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">너희들 거짖말을 믿겠냐? </span></p><p class="cs40314EBF"><span class="cs7A571DDB">다 니네들이 끝임없이 나를 공격하고 죽이려 하는거다. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">그리고 그것에 대한 답은 이미 나왔다 이 쓰래기들아.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">그리고 니네들을 도와주는 쓰래기들도, 같이 처리 되는거다.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">알아들어라. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p></body>
+<!-- FRA journal entry navigation -->
+<div class="fra-entry-nav" role="navigation" aria-label="Journal entry navigation">
+  <div class="fra-entry-bar-inner">
+    <div class="fra-entry-left">
+      <a href="../../index.html">Home</a>
+      <a href="../index.html">All Months</a>
+      <a href="index.html">2025-10 Index</a>
+    </div>
+    <div class="fra-entry-right">
+      <span class="fra-entry-status">You are viewing entry #10481</span>
+      <a href="10480.html">Previous Entry</a>
+      <a href="10482.html">Next Entry</a>
+    </div>
+  </div>
+</div>
+<!-- /FRA journal entry navigation -->
+<div class="fra-entry-content">
+<p class="cs40314EBF"><span class="cs7A571DDB">I don&#39;t care for them. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">Not anymore.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">Endless pursuit of attacks, to subjugate and keep me from rising.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">Evil fucks.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">인희야. 영석아.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">죽을려면 니네들 혼자 죽어라.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">남까지 *끌어당기지 말고.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">자백해.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">이미 알고있어 이분들이.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">그냥 무조건 억지로 엎어쒸우면 되냐? </span></p><p class="cs40314EBF"><span class="cs7A571DDB">그게 법정이 아니다.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">그 수많은 세월을 니네들 옆에 있지 않았는데, </span></p><p class="cs40314EBF"><span class="cs7A571DDB">내가 내 아이디어들을 투자처 앞에서 제시를 할때,</span></p><p class="cs40314EBF"><span class="cs7A571DDB">니네들이 그 당시때 내 아이디어들이 존재 했다면, </span></p><p class="cs40314EBF"><span class="cs7A571DDB">기억력으로 말을 먼저 하거나, 내가 제시 하기 이전에,</span></p><p class="cs40314EBF"><span class="cs7A571DDB">아니면, 그 수많은 세월안에, 서로에 대한 기록이 있을지, </span></p><p class="cs40314EBF"><span class="cs7A571DDB">남과 같이 기록이 있을지, 그걸 내가 어떻게 알아? </span></p><p class="cs40314EBF"><span class="cs7A571DDB">내가 그것을 장님인 상태에서, 니네들 인생에서 이리 오래 떨어진 이후에,<br/>내가 어떻게, 니네들이 기억을 가지고 있던지, 무었을 먼저 말했는지,<br/>아님 과거에 기록이 어딘가 붙어있을지, <br/>어떻게 내가 두려움 없이 제시를 하고, (누가 자살을 하고 싶겠냐 이런 장님이 된 상황에) <br/>그걸 내가 어떻게 알기에 자살 행위를 하겠냐고 이 개같은 것들아. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">니네들 거짖에 대한 한계를, 그것을 예측할수 있다는 자체가 증거야 이 쓰래기들아.<br/>뭘 말해도 내 아이디어들에 자세한 디태일이 있겠냐? </span></p><p class="cs40314EBF"><span class="cs7A571DDB">니네들 스토리고, 니네들이 삶이 내 아이디아와 관련되 있으니까, <br/>니네들 관심사가 나와 동일하다고, 그것을 대고 엎어쒸우는거지. <br/><br/>너희들은 사람이 아니다. 나를 독으로 해할려고 그랬던 것도,</span></p><p class="cs40314EBF"><span class="cs7A571DDB">니네들이 이미 사람인것을 포기 한거고, 이성/양심을 오래전에 없애버린거다.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB"><br/>나무 배, 내것이다. 너희들하고 관계가 없다.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">바누아투 이후, 이곳에 와서, 집을 지을생각 하다, 이곳 북쪽에 나무가 저렴해. <br/>&quot;Tiny house&quot; 에서 시작된 정보가, 배로 이러진 거다. 배 안에서 살수도 있으니까.<br/>물론 거대한 나무 빔을 서로 연결해서, 그 이후 내가 만드는 휴대용 라우터를 이용해<br/>나무 안에를 파인다. 그것은 녹차 밭 아저씨가 산을 파서 동굴을 만들때, 그것을 본받아 <br/>생각해 낸거다. CNC 기계를 생각하며. 아이디가 나올때 그 당시때 기계를 사고. <br/>그리고 그 기계와 desktop manufacturing은 Bishop 과 Suhail 과 함께한 정보고. <br/>너희들하고 무관하다. 시간때를 따져보아도, 녹차밭 바누아투 이후고, Chris Anderson 책도<br/>Suhail 하고 같이 탐색할때 바누아투 이후고, &nbsp;니네들이 엎어쒸우고 있는 정보는 내 아이디어에<br/>대한 디태일 있을수 없어. 그저 관심사를 사용하는것이지. 그리도 그것을 편견의식과<br/>함께 도와주는 쓰래기들도 처리 되는거다. 그게 사촌들인지 원기엄마진 모르겠지만,<br/>니네들 하는 짖으로 보아 법으로 다 쓸어버릴거다. 준비 해라.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">subtractive manufacturing 이다 이 씨발것들아. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">그 수많은 시간안에서, 채널에 올라오고 난 이후,</span></p><p class="cs40314EBF"><span class="cs7A571DDB">도대채 몇개를 훔친지 모르겠는데, 왜 니네들 기억이 먼지 오지 않는거지?</span></p><p class="cs40314EBF"><span class="cs7A571DDB">왜 꼭 내가 내 아이디아 들을 제시 하고 난 이후 니네들이 훔칠려는 거지? </span></p><p class="cs40314EBF"><span class="cs7A571DDB">이 쓰래기들아.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">내가 혼자 있고 약했을때, 니네들이 사용한 가스라이팅이 </span></p><p class="cs40314EBF"><span class="cs7A571DDB">법정에 먹힐거 같냐? </span></p><p class="cs40314EBF"><span class="cs7A571DDB">너희들은, 그 수많은 죄를 짖고 그 위에서 지금 놀아나는 거다.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">너희들 거짖말을 믿겠냐? </span></p><p class="cs40314EBF"><span class="cs7A571DDB">다 니네들이 끝임없이 나를 공격하고 죽이려 하는거다. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">그리고 그것에 대한 답은 이미 나왔다 이 쓰래기들아.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">그리고 니네들을 도와주는 쓰래기들도, 같이 처리 되는거다.</span></p><p class="cs40314EBF"><span class="cs7A571DDB">알아들어라. </span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p><p class="cs40314EBF"><span class="cs7A571DDB">&nbsp;</span></p>
+</div>
+<!-- FRA journal entry footer -->
+<div class="fra-entry-footer" role="contentinfo" aria-label="Journal entry footer">
+  <div class="fra-entry-bar-inner">
+    <div class="fra-entry-left">
+      <span class="fra-entry-status">FairRightsAndAccess.org</span>
+    </div>
+  </div>
+</div>
+<!-- /FRA journal entry footer -->
+</body>
 </html>
