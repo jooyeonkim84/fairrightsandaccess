@@ -24,26 +24,55 @@
                   <br>
                   <br>
                 </b>
-                <h3><b>Menu </b><br>
-                  <b><br>
+                <h3><b>Menu </b></h3>
+                <table style="width: 100%" border="1">
+                  <tbody>
+                    <tr>
+                      <td><a target="_top" title="Index.html" href="http://www.fairrightsandaccess.org/index.html"><u>Home
+                            (Click here to navigate from the beginning) </u></a></td>
+                    </tr>
+                    <tr>
+                      <td><a target="_top" title="Overview" href="http://www.fairrightsandaccess.org/overview.html">Overview
+                          (Of how it began and where it led to)</a></td>
+                    </tr>
+                    <tr>
+                      <td><a target="_top" title="Records" href="http://www.fairrightsandaccess.org/records.html">Records
+                          Archive (My daily on-screen writing)</a></td>
+                    </tr>
+                    <tr>
+                      <td><a target="_top" title="Individuals" href="http://www.fairrightsandaccess.org/individuals.html">Individuals
+                          (Abusers and their incrimination factors)</a></td>
+                    </tr>
+                    <tr>
+                      <td><a target="_top" title="Ideas" href="http://www.fairrightsandaccess.org/ideas.html">My
+                          Ideas</a></td>
+                    </tr>
+                    <tr>
+                      <td><a target="_top" title="Mind" href="http://www.fairrightsandaccess.org/mind.html">My
+                          State of Mind and How I am Affected </a></td>
+                    </tr>
+                    <tr>
+                      <td><a target="_top" title="Suggestions" href="http://www.fairrightsandaccess.org/suggestions.html">My
+                          Suggestions To the Court</a><a target="_top" title="Suggestions"
+                          href="http://www.fairrightsandaccess.org/suggestions.html"><br>
+                        </a></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h3> <b><br>
                   </b></h3>
-                <a target="_top" title="Index.html" href="http://www.fairrightsandaccess.org/index.html"><u>Home
-                    (Click here to navigate from the beginning) </u></a><br>
+                <br>
                 <a target="_top" title="Overview" href="http://www.fairrightsandaccess.org/overview.html"><br>
-                  Overview (Of how it began and where it led to)<br>
                   <br>
-                  Records Archive (My daily on-screen writing)<br>
+                  <br>
+                  <br>
                 </a><br>
-                <a target="_top" title="Individuals" href="http://www.fairrightsandaccess.org/individuals.html">Individuals
-                  (Abusers and their incrimination factors)</a><br>
+                <br>
                 <a target="_top" title="Ideas" href="http://www.fairrightsandaccess.org/ideas.html"><br>
-                  My Ideas<br>
-                </a><br>
-                <a target="_top" title="Mind" href="http://www.fairrightsandaccess.org/mind.html">My
-                  State of Mind and How I am Affected </a><a target="_top" title="Suggestions"
-                  href="http://www.fairrightsandaccess.org/suggestions.html"><br>
                   <br>
-                  My Suggestions To the Court<br>
+                </a><br>
+                <a target="_top" title="Suggestions" href="http://www.fairrightsandaccess.org/suggestions.html"><br>
+                  <br>
                   <br>
                   <br>
                   <br>
@@ -54,9 +83,8 @@
           </tbody>
         </table>
         <br>
-        <h1> <span role="text"></span><span role="text">To be updated...
-            (Overview)</span> </h1>
-        <br>
+        <h1> <span role="text"></span><span role="text">To Be Updated...</span><br>
+        </h1>
       </section>
     </article>
   </body>
