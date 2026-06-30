@@ -453,6 +453,18 @@ body.archive-page {
   padding: 10px 12px;
   text-decoration: none;
 }
+.entry-number {
+  display: block;
+  font-weight: 700;
+}
+.entry-date {
+  display: block;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-top: 3px;
+}
 .entry-list a:hover {
   border-color: var(--accent);
   color: var(--accent-dark) !important;
