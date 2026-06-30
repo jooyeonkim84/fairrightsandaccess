@@ -61,32 +61,40 @@ body.archive-page {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
+  gap: 12px;
+  width: min(calc(100% - 20px), 1360px);
 }
 
 .archive-site-name {
   flex: 0 0 auto;
   color: var(--header-text) !important;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.3rem;
+  font-size: clamp(1rem, 1.35vw, 1.3rem);
   font-weight: 700;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .archive-nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  flex-wrap: wrap;
-  gap: 3px;
+  flex: 1 1 auto;
+  flex-wrap: nowrap;
+  gap: 2px;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: thin;
 }
 
 .archive-nav a {
   border-radius: 4px;
   color: #eeeeee;
-  font-size: 0.9rem;
-  padding: 9px 10px;
+  flex: 0 0 auto;
+  font-size: clamp(0.72rem, 0.82vw, 0.88rem);
+  padding: 8px 7px;
   text-decoration: none;
+  white-space: nowrap;
 }
 .archive-nav a:hover,
 .archive-nav a[aria-current="page"] {
@@ -501,7 +509,11 @@ body.archive-page {
     gap: 8px;
     padding-block: 16px;
   }
-  .archive-nav { justify-content: flex-start; margin-left: -10px; }
+  .archive-nav {
+    justify-content: flex-start;
+    margin-left: 0;
+    width: 100%;
+  }
 }
 
 @media (max-width: 620px) {
