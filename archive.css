@@ -24,6 +24,40 @@ body.archive-page {
   line-height: 1.55;
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  left: 8px;
+  top: 252px;
+  z-index: 0;
+  width: min(24vw, 330px);
+  height: calc(100vh - 252px);
+  background: url("img/lady-justice-left.png") bottom left / contain no-repeat;
+  opacity: 0.28;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+.archive-header,
+.archive-main,
+.archive-footer,
+.fra-entry-nav,
+.fra-entry-content,
+.fra-entry-footer {
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 1121px) {
+  .archive-main {
+    min-height: calc(100vh - 78px);
+  }
+
+  .fra-entry-content {
+    min-height: calc(100vh - 220px);
+  }
+}
+
 .archive-page a { color: var(--accent-dark); }
 .archive-page a:hover { color: var(--accent); }
 .archive-page a:focus-visible,
@@ -318,6 +352,42 @@ body.archive-page {
 }
 .archive-counts span { color: var(--muted); font-size: 0.82rem; }
 
+.stats-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.stats-table {
+  width: 100%;
+  min-width: 620px;
+  border-collapse: collapse;
+  background: var(--paper);
+  font-size: 0.92rem;
+}
+
+.stats-table th,
+.stats-table td {
+  border: 1px solid var(--line);
+  padding: 9px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.stats-table th {
+  background: #f1ece6;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.stats-table tfoot th {
+  background: #fff7eb;
+  color: var(--accent-dark);
+}
+
+.sleep-pattern-panel p {
+  max-width: 82ch;
+}
+
 @media (max-width: 900px) {
   .overview-layout { grid-template-columns: 1fr; }
   .overview-toc { position: static; }
@@ -386,6 +456,10 @@ body.archive-page {
   color: var(--muted);
   font-size: 0.9rem;
   margin: 0 0 18px;
+}
+.report-card .report-focus {
+  color: #4f4b45;
+  line-height: 1.45;
 }
 .report-card .report-period {
   margin: 0 0 8px;
@@ -501,6 +575,10 @@ body.archive-page {
   gap: 20px;
 }
 .archive-footer a { color: #ffffff; }
+
+@media (max-width: 1120px) {
+  body::before { display: none; }
+}
 
 @media (max-width: 900px) {
   .archive-header-inner {
