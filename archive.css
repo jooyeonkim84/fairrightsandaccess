@@ -488,6 +488,22 @@ body::before {
   background: var(--accent);
   border-color: var(--accent);
 }
+.report-actions .pdf-button.secondary {
+  background: var(--paper);
+  color: var(--accent-dark) !important;
+}
+.report-actions .pdf-button.secondary:hover {
+  background: #f1ece6;
+  border-color: var(--accent-dark);
+}
+.report-actions .pdf-unavailable {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--muted);
+  display: inline-block;
+  font-size: 0.9rem;
+  padding: 8px 12px;
+}
 
 .archive-toolbar {
   align-items: end;
